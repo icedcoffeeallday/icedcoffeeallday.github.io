@@ -1,3 +1,55 @@
+/*
+Use CSS to add the following to your site.
+
+Padding and border added to at least one element
+ - Around faux form
+Margin added to at least one element
+ - box that contains "article"
+At least one centered element (a footer message can 
+be nice for this)
+ - Center faux form
+A background image on at least one element
+ - form
+A different font on at least one element
+ - Google head/subhead fonts
+A few elements styled using a class
+ - resources UL
+A different color for visited links
+ - index and resources page
+An element styled with an ID
+ - Add in pull quote from a review
+*/
+
 body{
-  background:blue;
+  font-family: 'Asar', serif;
+  max-width: 800px;
+}
+
+article{
+  border:2px solid #eee;
+  margin:30px;
+  padding: 30px 
+}
+
+h1{
+  font-size: 2em;
+}
+
+h1,h2{
+  line-height: .5em;
+}
+
+form{
+  border: 2px dashed #eee;
+  margin:30px;
+  padding: 30px;
+  align-items: center; 
+}
+
+figure{
+  max-width: 80%;
+}
+
+figure.last{
+  width: 100%;
 }
