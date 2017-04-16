@@ -2,10 +2,10 @@
 Use CSS to add the following to your site.
 
 XX-Padding and border added to at least one element
- - Around faux form
+ - Around article and form
 
 XX-Margin added to at least one element
- - box that contains "article"
+ - Article 
 
 XXAt least one centered element (a footer message can 
 be nice for this)
@@ -18,10 +18,10 @@ XX-A different font on at least one element
  - Google head/subhead fonts
 
 XXA few elements styled using a class
- - P class highlight
+ - P class highlight in article
 
 XXA different color for visited links
- - index and resources page
+ - a, a:visited formatting
 
 XXAn element styled with an ID
  - Figure IDs
