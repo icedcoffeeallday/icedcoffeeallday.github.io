@@ -17,14 +17,14 @@ XX-A background image on at least one element
 XX-A different font on at least one element
  - Google head/subhead fonts
 
-A few elements styled using a class
- - resources UL
+XXA few elements styled using a class
+ - P class highlight
 
 XXA different color for visited links
  - index and resources page
 
-An element styled with an ID
- - Add in pull quote from a review
+XXAn element styled with an ID
+ - Figure IDs
 */
 
 body{
@@ -57,13 +57,16 @@ a:visited{
   color:#458b74;
 }
 
-h1{
-  font-family: 'Asar', serif;
-  font-size: 2em;
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Asar', serif; 
 }
 
-h1,h2{
-  font-family: 'Asar', serif;
+h1{
+  font-size: 2em;
+  line-height: 0.5em;
+}
+
+h2{
   line-height: .5em;
 }
 
@@ -79,24 +82,38 @@ p,ul,li{
   border: 2px dashed #eee;
   font-family: 'Asar',serif;
   margin:0 auto;
-  padding: 30px;
   max-width: 900px;
+  padding: 30px;
+  text-align: center;
 }
 
-#figure{
+.figure{
   display:inline-block;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-#figure p{
+.figure p{
   font-family: 'Open Sans',sans-serif;
   font-size: 0.7em;
   line-height: 0.5em;
+  text-align: left;
 }
 
-#pingme h1, p{
+.figure img{
+  width:100%;
+}
+
+#pingme h1{
   line-height: 2em;
   text-align: center;
 }
 
+#pingme p{
+  line-height: 2em;
+  text-align: center;
+}
+
+.highlight{
+  font-size: 1.1em;
+}
