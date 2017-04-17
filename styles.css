@@ -25,6 +25,9 @@ XXA different color for visited links
 
 XXAn element styled with an ID
  - Figure IDs
+
+Add at least one media query to improve the responsiveness of your page
+ - Increase type leading when on portrait-oriented screen. Increase form size.
 */
 
 body{
@@ -116,4 +119,18 @@ p,ul,li{
 
 .highlight{
   font-size: 1.1em;
+}
+
+@media (min-width: 650px) and (orientation:portrait)  {
+  p {
+    line-height: 2.5em;
+  }
+  .figure p{
+    font-size: 1.6em;
+    line-height: 2em;
+  }
+  label{
+    font-size: 2em;
+    line-height: 2em;
+  }
 }
